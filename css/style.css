@@ -1,0 +1,395 @@
+* {margin:0; padding:0; list-style-type:none;}
+html{overflow-y: scroll;}
+body {font-size:15px;background: url(../images/background.jpg) center repeat;}
+img {border:none;}
+
+@font-face {
+    font-family: "DINPro Regular";
+    src: url("../fonts/DINPro-Regular.eot"); /* para IE */
+    src: local("DINPro-Regular"), url("../fonts/DINPro-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "DINPro Black";
+    src: url("../fonts/DINPro-Black.eot"); /* para IE */
+    src: local("DINPro-Black"), url("../fonts/DINPro-Black.ttf") format("truetype");
+}
+.content {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    font-family: "DINPro Regular", Verdana, Sans-Serif;
+}
+.red {
+    color: #ba2f36;
+}
+.blue {
+    color: #2071b5;
+}
+
+/************** HEADER **************/
+.logotipo_sm {
+    width: 71px;
+    height: 95px;
+    display: block;
+    background: url(../images/logotipo_SM.png) no-repeat;
+    text-indent: -9999px;
+    margin: -10px 0 0 0;
+    position: absolute;
+}
+.menu {
+    max-width: 960px;
+    height: 59px;
+    background: url(../images/borda_menu.png) no-repeat;
+    margin: 30px 0 50px 0;
+    padding: 18px 0 0 174px;
+}
+.menu li{
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ba2f36;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.menu li:hover{
+    color: #c1b097;
+}
+.menu li.active{
+    color: #c1b097;
+}
+/************** FIM HEADER **************/
+
+
+/************** HOME **************/
+.texto_home {
+    width: 453px;
+    height: 826px;
+    background: url(../images/sombra_borda.jpg) right no-repeat;
+    padding-right: 50px;
+    float: left;
+}
+.logotipo_serie_gestor {
+    width: 293px;
+    height: 196px;
+    background: url(../images/logotipo_serie_gestao_escolar.png) no-repeat;
+    text-indent: -9999px;
+}
+.conheca_educadores {
+    margin-top: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.conheca_educadores b{
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+.conheca_educadores a{
+    width: 200px;
+    height: 93px;
+    margin: 10px 10px 10px 0;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #ba2f36;
+    font-weight: bold;
+}
+.conheca_educadores a img{
+    width: 95px;
+    height: auto;
+    margin-right: 5px;
+    float: left;
+}
+
+/************** /HOME **************/
+
+/************** TEMAS **************/
+.passe_mouse {
+    text-align: center;
+    font-size: 23px;
+    color: #575756;
+    line-height: 29px;
+    position: absolute;
+    z-index: 1;
+}
+.passe_mouse b{
+    font-size: 43px;
+    color: #2071b5;
+}
+.ilustracao_temas {
+    width: 608px;
+    height: 727px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_TEMAS.png) no-repeat;
+    position: absolute;
+    margin-top: 900px;
+    margin-left: -72px;
+}
+.box_tema {
+    width: 614px;
+    height: 159px;
+    background: url(../images/borda_box_tema.png) bottom no-repeat;
+    margin-left: 290px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+.box_tema:hover .infos_box {
+    background: #FFF;
+    border-radius: 15px;
+}
+.infos_box {
+    width: 460px;
+    height: 110px;
+    padding: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    float: left;
+    z-index: 1;
+}
+.infos_box img{
+    width: 115px;
+    height: auto;
+    margin-right: 5px;
+    float: left;
+    display: inline-block;
+}
+.texto_box_tema {
+    width: 340px;
+    display: inline-block;
+    color: #575756;
+}
+.titulo_box_tema {
+    color: #2071b5;
+}
+.clique_box_tema {
+    width: 85px;
+    height: 67px;
+    background: url(../images/buttons/bt_clique_box_tema.png) no-repeat;
+    display: inline-block;
+    margin-top: 41px;
+}
+.foto_tema {
+    float: left;
+    margin-right: 20px;
+    clear: both;
+}
+.titulo_tema {
+    font-size: 36px;
+    color: #ba2f36;
+}
+.educador {
+    font-size: 20px;
+    color: #d2771d;
+}
+.infos_tema {
+    width: 674px;
+    height: auto;
+    margin: 0px 0 0 286px;
+    padding: 20px 0;
+}
+
+.sombra_box_tema {
+    width: 568px;
+    height: 12px;
+    display: block;
+    background: url(../images/borda_box_tema.png) no-repeat;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.texto_tema {
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.botoes_tema {
+    width: 280px;
+    display: inline-block;
+    margin-top: -15px;
+}
+.bt_atividade_introdutoria {
+    width: 105px;
+    height: 67px;
+    background: url(../images/buttons/bt_atividade_introdutoria.png) no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    margin: 10px;
+}
+.bt_textos_de_apoio {
+    width: 102px;
+    height: 67px;
+    background: url(../images/buttons/bt_textos_de_apoio.png) no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    margin: 10px;
+}
+.bt_apresentacao {
+    width: 105px;
+    height: 67px;
+    background: url(../images/buttons/bt_apresentacao.png) no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    margin: 10px;
+}
+.bt_ficha_de_avaliacao {
+    width: 102px;
+    height: 67px;
+    background: url(../images/buttons/bt_ficha_de_avaliacao.png) no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    margin: 10px;
+}
+.bt_video {
+    width: 105px;
+    height: 67px;
+    background: url(../images/buttons/bt_video.png) no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    margin: 10px;
+}
+.bt_voltar {
+    width: 149px;
+    height: 48px;
+    background: url(../images/buttons/bt_voltar.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    right: 40px;
+}
+.ilustracao_letramento_digital {
+    width: 438px;
+    height: 263px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_LETRAMENTO_DIGITAL.png) no-repeat;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: -92px;
+}
+.ilustracao_acao_mediadora {
+    width: 220px;
+    height: 438px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_ACAO_MEDIADORA.png) no-repeat;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 18px;
+}
+.ilustracao_acao_mediadora2 {
+    width: 196px;
+    height: 223px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_ACAO_MEDIADORA2.png) no-repeat;
+    position: absolute;
+     margin-top: -60px;
+    margin-left: 718px;
+}
+.ilustracao_letramentos_literarios {
+    width: 253px;
+    height: 245px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_LETRAMENTO_LITERARIOS.png) no-repeat;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -80px;
+}
+.ilustracao_letramentos_literarios2 {
+    width: 138px;
+    height: 134px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_LETRAMENTO_LITERARIOS2.png) no-repeat;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 810px;
+}
+.ilustracao_formacao_do_leitor {
+    width: 757px;
+    height: 230px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_A_FORMACAO_DO_LEITOR.png) no-repeat;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -90px;
+}
+.ilustracao_competencias_nas_diversas_areas {
+    width: 353px;
+    height: 291px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_A_COMPETENCIA_NAS_DIVERSAS_AREAS_DO_CONHECIMENTO.png) no-repeat;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: -50px;
+}
+.ilustracao_espacos_de_leitura {
+    width: 267px;
+    height: 341px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_ESPACOS_DE_LEITURA.png) no-repeat;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -22px;
+}
+.ilustracao_apresentacao {
+    width: 400px;
+    height: 296px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_APRESENTACAO.png) no-repeat;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -62px;
+}
+/************** /TEMAS **************/
+
+/************** QUEM SOMOS **************/
+.ilustracao_quem_somos {
+    width: 354px;
+    height: 184px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_QUEM_SOMOS.png) no-repeat;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -300px;
+}
+.quem_somos {
+    font-size: 43px;
+    font-family: "DINPro Black", Verdana, Sans-Serif;
+    line-height: 40px;
+    position: absolute;
+}
+.texto_quem_somos {
+    width: 333px;
+    height: 826px;
+    background: url(../images/sombra_borda.jpg) right no-repeat;
+    padding-right: 50px;
+    float: left;
+    margin: 0 30px 0 240px;
+}
+.titulo_quem_somos {
+    font-size: 24px;
+}
+/************** /QUEM SOMOS **************/
+
+
+/************** CRÉDITOS **************/
+.ilustracao_creditos {
+    width: 343px;
+    height: 312px;
+    display: block;
+    background: url(../images/ilustracoes/ilustracao_CREDITOS.png) no-repeat;
+    position: absolute;
+    margin-top: 150px;
+}
+.texto_creditos {
+    width: 400px;
+    float: left;
+    margin: 0 30px 50px 230px;
+    text-align: right;
+    line-height: 25px;
+}
+.texto_creditos_dois {
+    width: 280px;
+    float: right;
+    line-height: 25px;
+}
+/************** /CRÉDITOS **************/
